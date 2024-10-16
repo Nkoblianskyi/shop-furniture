@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shop-furniture/static/css/main.8b13d8eb.css",
+    "main.js": "/shop-furniture/static/js/main.19d8b2dd.js",
+    "index.html": "/shop-furniture/index.html",
+    "main.8b13d8eb.css.map": "/shop-furniture/static/css/main.8b13d8eb.css.map",
+    "main.19d8b2dd.js.map": "/shop-furniture/static/js/main.19d8b2dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b13d8eb.css",
+    "static/js/main.19d8b2dd.js"
+  ]
+}
