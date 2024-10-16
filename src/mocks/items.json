@@ -1,31 +1,31 @@
 [
     {
         "id": 1,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image1.jpg",
         "name": "Cammile",
         "price": "$65"
     },
     {
         "id": 2,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image2.jpg",
         "name": "Cammile",
         "price": "$100"
     },
     {
         "id": 3,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image3.jpg",
         "name": "Cammile",
         "price": "$85"
     },
     {
         "id": 4,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image2.jpg",
         "name": "Cammile",
         "price": "$75"
     },
     {
         "id": 5,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image3.jpg",
         "name": "Cammile",
         "price": "$90"
     },
@@ -37,13 +37,13 @@
     },
     {
         "id": 7,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image2.jpg",
         "name": "Cammile",
         "price": "$75"
     },
     {
         "id": 8,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image3.jpg",
         "name": "Cammile",
         "price": "$90"
     },
@@ -55,19 +55,19 @@
     },
     {
         "id": 10,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image2.jpg",
         "name": "Cammile",
         "price": "$80"
     },
     {
         "id": 11,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image3.jpg",
         "name": "Cammile",
         "price": "$80"
     },
     {
         "id": 12,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image2.jpg",
         "name": "Cammile",
         "price": "$80"
     },
@@ -79,7 +79,7 @@
     },
     {
         "id": 14,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image2.jpg",
         "name": "Cammile",
         "price": "$75"
     },
@@ -91,7 +91,7 @@
     },
     {
         "id": 16,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image2.jpg",
         "name": "Cammile",
         "price": "$80"
     },
@@ -103,7 +103,7 @@
     },
     {
         "id": 18,
-        "src": "/sklep/image1.jpg",
+        "src": "/shop-furniture/image3.jpg",
         "name": "Cammile",
         "price": "$80"
     }
