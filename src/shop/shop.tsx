@@ -42,7 +42,7 @@ export const Shop = () => {
 
     return (
         <div className="shop">
-            <h1 ref={shopTitleRef}></h1>
+            <h1 ref={shopTitleRef} className='shop-title'>Goods in shop</h1>
             <div className="shop-list">
                 {items.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage).map(item => (
                     <Card
@@ -56,9 +56,9 @@ export const Shop = () => {
             </div>
             {totalPages > 1 && (
                 <div className="pagination">
-                    <button onClick={handlePrevPage} disabled={currentPage === 1}>Prev</button>
-                    <span>{currentPage} / {totalPages}</span>
-                    <button onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
+                    <button onClick={handlePrevPage} disabled={currentPage === 1} className='pagination-btn'>Prev</button>
+                    <span className='pagination-btn-span'>{currentPage} ... {totalPages}</span>
+                    <button onClick={handleNextPage} disabled={currentPage === totalPages} className='pagination-btn'>Next</button>
                 </div>
             )}
         </div>
