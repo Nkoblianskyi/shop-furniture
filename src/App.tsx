@@ -4,6 +4,7 @@ import { Hero } from "./components/hero";
 import { About } from "./components/about";
 import { Layout } from "./layouts/layout";
 import { ShopPage } from './ShopPage';
+import { Goods } from './goods/goods';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </Layout>
         } />
         <Route path="/shop" element={<ShopPage />} />
+        <Route path="/goods" element={<Goods />} />
       </Routes>
     </Router>
   );

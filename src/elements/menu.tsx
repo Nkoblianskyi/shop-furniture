@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 export const Menu = () => {
     const navigation = [
         { text: 'Home', href: '/' },
-        { text: 'Shop', href: '/shop' }, // оновлено посилання на Shop
-        { text: 'About US', href: '/about' }, // наприклад, якщо у вас є сторінка About
-        { text: 'Contact', href: '/contact' }, // наприклад, якщо у вас є сторінка Contact
+        { text: 'Shop', href: '/shop' },
+        { text: 'About US', href: '/about' },
+        { text: 'Contact', href: '/contact' },
     ];
 
     return (

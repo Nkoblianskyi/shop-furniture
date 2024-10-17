@@ -4,7 +4,7 @@ export const Logo = () => {
     return (
         <div className="logo">
             <div className="logo-img">
-                <a href="/" className="logo-img-link">
+                <a href="/#" className="logo-img-link">
                     <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo company" className="logo-img-item" />
                     <div className="logo-text">
                         <h1 className="logo-text-title">Home Decor</h1>

@@ -2,6 +2,7 @@
     display: flex
     justify-content: center
     align-items: center
+    position: relative
 
 
     &-wrap
@@ -33,6 +34,7 @@
             height: 150px
             border-radius: 50px 50px 0 0
             background-color: #77a9ba
+            position: relative
 
             &-name  
                 font-family: 'Work Sans', sans-serif
@@ -41,6 +43,8 @@
                 line-height: 37.54px
                 text-align: center
                 color: rgba(8, 19, 35, 1)
+                margin-top: 25px
+
 
             &-price
                 display: flex
@@ -52,3 +56,9 @@
                 line-height: 37.54px
                 text-align: left
                 color: rgba(8, 19, 35, 1)
+                position: relative
+
+.card-wrap-text-name::after
+    content: ''
+    position: absolute
+    inset: 0
