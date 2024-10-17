@@ -42,7 +42,7 @@ export const Shop = () => {
 
     return (
         <div className="shop">
-            <h1 ref={shopTitleRef}>Shop</h1>
+            <h1 ref={shopTitleRef}></h1>
             <div className="shop-list">
                 {items.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage).map(item => (
                     <Card
